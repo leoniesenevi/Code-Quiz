@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code-quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start page -->
+    <div class = "top">
+        <button id="score">View Highscore</button>
+        <div id="timer">Time: 0</div>
+    </div>  
+
+    <div class="container" id ="container">
+        <h1><b>Coding Quiz Challenge</b></h1><br> <br> 
+        <h5>Try to answer the code-related questions within the time limit.<br> <br> 
+        Answering incorrectly results in a time penalty by 15 Seconds!
+        <br><br>  Click start Button to start the Quiz.
+        </h5><br> <br> 
+
+        <button id="startbtn">Start Quiz</button>        
+    </div>
+
+    <!-- Question Page -->
+
+    <div class="container-2" id="container-2" style="display: none;">
+        <div id ="question">Quiz</div>
+        <hr>
+        <div id="buttons">
+            <button  id="A-btn"><span id="choice1">Answer 1</span></button><br><br>
+            <button id="B-btn"><span id="choice2">Answer 2</span></button><br><br>
+            <button id="C-btn"><span id="choice3">Answer 3</span></button><br><br>
+            <button  id="D-btn"><span id="choice4">Answer 4</span></button><br><br>
+            <hr>
+            <div id="result"> correct Answer</div>
+
+        </div>
+    </div>
+
+    <!-- Result page -->
+
+    <div id="scoreContainer" style="display: none;">
+        <h2> All Done!</h2>
+        <h5>Your final score is : </h5>
+        <h5>Enter Initials:</h5>
+        <input type="text">
+        <button>submit</button>
+        
+    </div>
+
+    <!-- view high score page -->
+
+    <div id="Highscore" style = "display:none">
+        <h2>Highscores</h2>
+        <ol> aaaaaa : </ol>
+        <button>Go Back</button>
+        <button>Clear Highscore</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
