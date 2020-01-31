@@ -40,3 +40,17 @@ body {
      cursor: pointer;
      background-color: rgb(143, 133, 133);
  }
+
+ /* <!-- Result page --> */
+#scoreContainer{
+    margin-top: 75px;
+    margin-left: 500px;
+    width: 600px; 
+}
+
+/* <!-- view high score page --> */
+#Highscore{
+    margin-top: 75px;
+    margin-left: 500px;
+    width: 600px; 
+}
